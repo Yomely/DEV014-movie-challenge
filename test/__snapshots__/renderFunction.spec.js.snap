@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderItems Sould take a picture 3 movies 1`] = `
+<div
+  id="app"
+>
+   
+  <ul
+    class="flex-container"
+  >
+    <li
+      class="flex-item"
+      itemscope=""
+      itemtype="Lalaland"
+    >
+      
+      
+      <dl
+        itemscope=""
+        itemtype="MovieChallenge"
+      >
+        
+      
+        <img
+          alt="lalaland"
+          src="https://image.tmdb.org/t/p/w50012312.png"
+        />
+        
+      
+        <dd
+          itemprop="name"
+        >
+          lalaland
+        </dd>
+        
+      
+        <dd
+          itemprop="releaseDate"
+        >
+          2022
+        </dd>
+        
+      
+      </dl>
+        
+       
+    </li>
+    <li
+      class="flex-item"
+      itemscope=""
+      itemtype="Toreto"
+    >
+      
+      
+      <dl
+        itemscope=""
+        itemtype="MovieChallenge"
+      >
+        
+      
+        <img
+          alt="toreto"
+          src="https://image.tmdb.org/t/p/w5004535.png"
+        />
+        
+      
+        <dd
+          itemprop="name"
+        >
+          toreto
+        </dd>
+        
+      
+        <dd
+          itemprop="releaseDate"
+        >
+          2018
+        </dd>
+        
+      
+      </dl>
+        
+       
+    </li>
+    <li
+      class="flex-item"
+      itemscope=""
+      itemtype="rango"
+    >
+      
+      
+      <dl
+        itemscope=""
+        itemtype="MovieChallenge"
+      >
+        
+      
+        <img
+          alt="rango"
+          src="https://image.tmdb.org/t/p/w5009o89p.png"
+        />
+        
+      
+        <dd
+          itemprop="name"
+        >
+          rango
+        </dd>
+        
+      
+        <dd
+          itemprop="releaseDate"
+        >
+          2006
+        </dd>
+        
+      
+      </dl>
+        
+       
+    </li>
+  </ul>
+  <ul
+    class="flex-container"
+  >
+    <li
+      class="flex-item"
+      itemscope=""
+      itemtype="Lalaland"
+    >
+      
+      
+      <dl
+        itemscope=""
+        itemtype="MovieChallenge"
+      >
+        
+      
+        <img
+          alt="lalaland"
+          src="https://image.tmdb.org/t/p/w50012312.png"
+        />
+        
+      
+        <dd
+          itemprop="name"
+        >
+          lalaland
+        </dd>
+        
+      
+        <dd
+          itemprop="releaseDate"
+        >
+          2022
+        </dd>
+        
+      
+      </dl>
+        
+       
+    </li>
+    <li
+      class="flex-item"
+      itemscope=""
+      itemtype="Toreto"
+    >
+      
+      
+      <dl
+        itemscope=""
+        itemtype="MovieChallenge"
+      >
+        
+      
+        <img
+          alt="toreto"
+          src="https://image.tmdb.org/t/p/w5004535.png"
+        />
+        
+      
+        <dd
+          itemprop="name"
+        >
+          toreto
+        </dd>
+        
+      
+        <dd
+          itemprop="releaseDate"
+        >
+          2018
+        </dd>
+        
+      
+      </dl>
+        
+       
+    </li>
+    <li
+      class="flex-item"
+      itemscope=""
+      itemtype="rango"
+    >
+      
+      
+      <dl
+        itemscope=""
+        itemtype="MovieChallenge"
+      >
+        
+      
+        <img
+          alt="rango"
+          src="https://image.tmdb.org/t/p/w5009o89p.png"
+        />
+        
+      
+        <dd
+          itemprop="name"
+        >
+          rango
+        </dd>
+        
+      
+        <dd
+          itemprop="releaseDate"
+        >
+          2006
+        </dd>
+        
+      
+      </dl>
+        
+       
+    </li>
+  </ul>
+</div>
+`;
