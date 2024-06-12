@@ -1,15 +1,20 @@
-/* eslint-disable*/
+/* eslint-disable import/prefer-default-export */
+import { navigateTo } from '../router.js';
+
 export const renderItems = (data) => {
   const ul = document.createElement('ul');
   ul.classList.add('flex-container');
 
   data.forEach((movie) => {
     const movieLi = document.createElement('li');
-    // paso 1 
+    // paso 1
     // agregarle un evento al darle clicl al li
+    movieLi.addEventListener('click', () => {
     /// console.log e imprimir el id de la pelicula
-    // paso 3 es invocar la funcion navigateTo para navegar al detalle de la pelicula
-
+      console.log(movie.id);
+      // paso 3 es invocar la funcion navigateTo para navegar al detalle de la pelicula
+      navigateTo('/detail', { id: movie.id });
+    });
 
     movieLi.setAttribute('itemscope', '');
     movieLi.setAttribute('itemtype', movie.id);
