@@ -12,13 +12,24 @@ const routes = {
   '/detail': Detail,
   // ...
 };
-
+console.log(Detail);
 // Assign the routes
 setRoutes(routes);
 
 // Set the root element where views will be rendered
 const root = document.querySelector('#app');
+setRootEl(root);
+window.onpopstate = () => {
+  onURLChange(window.location.pathname);
+};
 window.addEventListener('DOMContentLoaded', () => {
-  setRootEl(root);
   onURLChange(window.location.pathname);
 });
+
+/*const btnBack = document.querySelector('#buttonBack');
+console.log(btnBack);
+btnBack.addEventListener('click', () => {
+  console.log(btnBack.location.pathname);
+  setRootEl(root);
+  onURLChange(btnBack.location.pathname);
+});*/
